@@ -3,6 +3,10 @@ import json
 import os
 import requests
 from abc import ABC, abstractmethod
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 class ConfigRepository(ABC):
     @abstractmethod
